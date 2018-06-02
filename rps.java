@@ -10,7 +10,7 @@ public class rps {
 		
 		System.out.println( "Choose rock paper scissors\n 1= Rock,\n 2= Paper \n 3= Scissors");
 		pc = keyboard.nextInt();
-		cc = (int )(Math.random() * 2);
+		cc = (int )((Math.random() * 2)+1);
 		if ( pc == 1 ) {
 			System.out.println ( "You chose Rock" );
 		}
