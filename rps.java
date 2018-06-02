@@ -27,12 +27,13 @@ public class rps {
 		if ( pc == 1 ) {
 			if ( pc == 1 ) { 
 				System.out.println ( "You both chose Rock, a draw." );
+			}
 			else if ( pc == 2 ) {
 				System.out.println ( "You chose Rock, but the computer chose paper, you loose.");
 			}else{
-				System.out.print( "You chose Rock, and the computer chose Scissors, you win!") 
+				System.out.print( "You chose Rock, and the computer chose Scissors, you win!"); 
 		}
-		else if ( pc == 2 ) {
+		if ( pc == 2 ) {
 
 			System.out.println ( "You chose Paper" );
 		}
@@ -40,4 +41,5 @@ public class rps {
 			System.out.println ( "You chose Scissors" );
 
 	}
-}
+
+	}}}
