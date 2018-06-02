@@ -10,7 +10,7 @@ public class rps {
 		
 		System.out.println( "Choose rock paper scissors\n 1= Rock,\n 2= Paper \n 3= Scissors");
 		pc = keyboard.nextInt();
-		cc = (int )(Math.random() * 2);
+		cc = (int )((Math.random() * 2)+1);
 		if ( pc == 1 ) {
 			System.out.println ( "You chose Rock" );
 		}
@@ -25,10 +25,10 @@ public class rps {
 }
 		System.out.print("random number is" + cc);
 		if ( pc == 1 ) {
-			if ( pc == 1 ) { 
+			if ( cc == 1 ) { 
 				System.out.println ( "You both chose Rock, a draw." );
 			}
-			else if ( pc == 2 ) {
+			else if ( cc == 2 ) {
 				System.out.println ( "You chose Rock, but the computer chose paper, you loose.");
 			}else{
 				System.out.print( "You chose Rock, and the computer chose Scissors, you win!"); 
