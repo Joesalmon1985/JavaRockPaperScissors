@@ -32,6 +32,16 @@ public class RockPaperScissors {
 		}
 		else if ( PlayerChoice == 2 ) {
 			System.out.println ( "You chose Paper" );
+			if (ComputerChoice == 1 ) {
+				System.out.println ( "The computer chose Rock, the game is a win for you");
+			}
+			else if (ComputerChoice == 2) {
+				System.out.println ( "The computer chose Paper, you draw with the computer.");
+			}
+			else {
+				System.out.println ("The computer chose Scissors, you loose the game!");
+			
+			}
 		}
 		else if ( PlayerChoice == 3 ) {
 			System.out.println ( "You chose Scissors" );
