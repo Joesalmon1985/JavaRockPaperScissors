@@ -9,11 +9,14 @@ public class RockPaperScissors {
 		// The choice of the computer as 1,2 or 3 for rock, paper or scissors.
 		int ComputerChoice;
 		
+		// This generates the random number used for the computer choice
+		Random rnd = new Random();  // Hey, I did use rnd... but its not an int.
+		ComputerChoice = rnd.nextInt(3) + 1;  // returns int in the range [0, 3)
+		
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println( "Choose rock paper scissors\n 1= Rock,\n 2= Paper \n 3= Scissors");
 		PlayerChoice = keyboard.nextInt();
-		ComputerChoice = (int )(Math.random() * 2);
 		if ( PlayerChoice == 1 ) {
 			System.out.println ( "You chose Rock" );
 		}
