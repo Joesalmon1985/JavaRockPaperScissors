@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 
-public class RockPaperScissors {
+public class RockyPaperScissors {
 	public static void main( String[] args ) {
 		int pc, cc,rnd;
 
