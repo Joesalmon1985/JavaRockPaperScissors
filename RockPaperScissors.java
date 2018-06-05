@@ -8,9 +8,7 @@ public class RockPaperScissors {
 		int PlayerChoice;
 		// The choice of the computer as 1,2 or 3 for rock, paper or scissors.
 		int ComputerChoice;
-		// The random number used to select the computer choice
-		int ComputerChoiceRnd;
-
+		
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println( "Choose rock paper scissors\n 1= Rock,\n 2= Paper \n 3= Scissors");
