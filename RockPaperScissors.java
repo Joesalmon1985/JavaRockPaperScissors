@@ -19,6 +19,16 @@ public class RockPaperScissors {
 		PlayerChoice = keyboard.nextInt();
 		if ( PlayerChoice == 1 ) {
 			System.out.println ( "You chose Rock" );
+			if (ComputerChoice == 1 ) {
+				System.out.println ( "The computer chose Rock, the game is a draw");
+			}
+			else if (ComputerChoice == 2) {
+				System.out.println ( "The computer chose Paper, you loose!");
+			}
+			else {
+				System.out.println ("The computer chose Scissors, you win!");
+			
+			}
 		}
 		else if ( PlayerChoice == 2 ) {
 			System.out.println ( "You chose Paper" );
@@ -28,7 +38,7 @@ public class RockPaperScissors {
 		}else {
 			System.out.print("you have not made a valid selection. The game won't work");
    	
-}
-		System.out.print("random number is" + ComputerChoice);
+		}
+		System.out.print("random number is " + ComputerChoice);
 	}
 }
