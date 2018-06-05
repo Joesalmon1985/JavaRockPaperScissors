@@ -60,6 +60,5 @@ public class RockPaperScissors {
 			System.out.print("you have not made a valid selection. The game won't work");
    	
 		}
-		System.out.print("random number is " + ComputerChoice);
 	}
 }
