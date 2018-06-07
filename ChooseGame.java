@@ -15,6 +15,7 @@ public class ChooseGame {
 		// This bit never seems to work no matter how I format it, how can I get this below line to run the other class?
 		// RockPaperScissors().RockPaperScissors ();
 		// RockPaperScissors = RockpaperScissors ();
+		RockPaperScissors.main(null);
 		}
 	else if ( WantNo == true) {
 		System.out.println("Okay thats fine, goodbye.");
