@@ -9,6 +9,7 @@ public class ChooseGame {
 	WantPlay = keyboard.nextInt();
 	if ( WantPlay == 'Y' ) {
 		System.out.println("Okay lets play");
+		// This bit never seems to work no matter how I format it, how can I get this below line to run the other class?
 		RockPaperScissors().RockPaperScissors ();
 		}
 	else if ( WantPlay == 'N') {
