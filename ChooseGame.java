@@ -9,7 +9,7 @@ public class ChooseGame {
 	WantPlay = keyboard.nextInt();
 	if ( WantPlay == 'Y' ) {
 		System.out.println("Okay lets play");
-		
+		RockPaperScissors.RockPaperScissors ();
 		}
 	else if ( WantPlay == 'N') {
 		System.out.println("Okay thats fine, goodbye.");
