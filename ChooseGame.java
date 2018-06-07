@@ -10,12 +10,13 @@ public class ChooseGame {
 	if ( WantPlay == 'Y' ) {
 		System.out.println("Okay lets play");
 		
-	}
+		}
 	else if ( WantPlay == 'N') {
 		System.out.println("Okay thats fine, goodbye.");
-	}
+		}
 	else {
 		System.out.println("You can only enter Y or N. Try again");
 		
 		}
-	}}
+	}	
+}
