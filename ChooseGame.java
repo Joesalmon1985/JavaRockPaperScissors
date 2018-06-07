@@ -1,9 +1,25 @@
 import java.util.Scanner;
 import java.util.Random;
-// This is what I am working on
 
-public class RockPaperScissors {
-	public static void main( String[] args ) {
+public class ChooseGame {
+	public static void main( String[] args ) { 
+	char WantPlay;
+	System.out.println( "Do you want to play Rock, Paper Scissors? Enter Y or N only.");
+	WantPlay = keyboard.nextInt();
+	if ( PlayerChoice == 'Y' ) {
+		System.out.println("Okay lets play");
+		Game ();
+		RockPaperScissors ();
+	}
+	else if ( PlayerChoice == 'N') {
+		System.out.println("Okay thats fine, goodbye.");
+	}
+	else {
+		System.out.println("You can only enter Y or N. Try again");
+		RockPaperScissors ();
+	}}}
+public class Game {
+	public static void ( Strong [] args ) { }}
 		// The choice of the player as 1,2 or 3 for rock, paper or scissors.
 		int PlayerChoice;
 		// The choice of the computer as 1,2 or 3 for rock, paper or scissors.
