@@ -27,7 +27,7 @@ public class Game {
 		int ComputerChoice;
 		
 		// This generates the random number used for the computer choice
-		Random rnd = new Random();  // Hey, I did use rnd... but its not an int.
+		Random rnd = new Random();  
 		ComputerChoice = rnd.nextInt(3) + 1;  // returns int in the range [0, 3)
 		
 		Scanner keyboard = new Scanner(System.in);
