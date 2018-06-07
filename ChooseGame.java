@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class ChooseGame {
-	@Override
 	public static void main( String[] args ) {
 	char WantPlay;
 	System.out.println( "Do you want to play Rock, Paper Scissors? Enter Y or N only.");
