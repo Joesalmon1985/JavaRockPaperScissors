@@ -61,4 +61,16 @@ public class RockPaperScissors {
    	
 		}
 	}
+	public static String getplayerChoice() {
+		Scanner keyboard = new Scanner(System.in);
+		String playerChoice;
+		playerChoice = keyboard.next();
+			if (playerChoice == "1") {
+				return playerChoice;
+				}
+			else {
+				System.out.println ("Make a valid selection");
+				return "error";
+			}
+	}
 }
