@@ -16,7 +16,7 @@ public class RockPaperScissors {
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println( "Choose rock paper scissors\n 1= Rock,\n 2= Paper \n 3= Scissors");
-		playerChoice = keyboard.nextInt();
+		playerChoice = RockPaperScissors.getplayerChoice();
 		if ( playerChoice == 1 ) {
 			System.out.println ( "You chose Rock" );
 			if (computerChoice == 1 ) {
@@ -61,16 +61,16 @@ public class RockPaperScissors {
    	
 		}
 	}
-	public static String getplayerChoice() {
+	public static int getplayerChoice() {
 		Scanner keyboard = new Scanner(System.in);
-		String playerChoice;
-		playerChoice = keyboard.next();
-			if (playerChoice == "1") {
+		int playerChoice;
+		playerChoice = keyboard.nextInt();
+			if (playerChoice == 1) {
 				return playerChoice;
 				}
 			else {
 				System.out.println ("Make a valid selection");
-				return "error";
+				return 0;
 			}
 	}
 }
